@@ -5,10 +5,10 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives",
     "lint:fix": "eslint . --fix --ext js,jsx --report-unused-disable-directives",
     "pretty": "prettier --write .",
+    "build": "vite build",
     "preview": "vite preview"
   },
   "dependencies": {

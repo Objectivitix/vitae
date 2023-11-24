@@ -1,0 +1,49 @@
+/* FONTS */
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+/* RESET */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  border: none;
+  margin: 0;
+}
+
+a {
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+/* CONFIG */
+
+:root {
+  font-size: 62.5%;
+
+  --fs-300: 2rem;
+  --fs-400: 2.2rem;
+  --fs-500: 2.4rem;
+  --fs-600: 2.8rem;
+  --fs-700: 3.2rem;
+  --fs-800: 3.6rem;
+  --fs-900: 4rem;
+
+  --fw-reg: 400;
+  --fw-bld: 700;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: var(--fs-400);
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
